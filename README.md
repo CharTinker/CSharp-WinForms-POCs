@@ -54,22 +54,6 @@ Each folder is a standalone project that focuses on a single concept.
 
 ---
 
-# 🛠 Technologies
-
-* C#
-* .NET
-* Windows Forms (WinForms)
-* Microsoft.Extensions.DependencyInjection
-* HttpClient
-* System.Text.Json
-* LINQ
-* Delegates
-* Events
-* Async/Await
-* Multithreading
-
----
-
 # 💡 Concepts Covered
 
 This repository will include examples covering:
