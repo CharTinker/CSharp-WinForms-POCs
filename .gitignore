@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/CallbackPOC/.vs/CallbackPOC
+/CallbackPOC/bin/Debug
+/CallbackPOC/obj/Debug
+/CallbackPOC/packages
+/obj/Debug
+/bin/Debug
+/packages

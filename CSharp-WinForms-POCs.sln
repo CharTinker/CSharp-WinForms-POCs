@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp-WinForms-POCs", "CSharp-WinForms-POCs.csproj", "{90686C35-33BF-4DFE-8624-5C287AC3B242}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90686C35-33BF-4DFE-8624-5C287AC3B242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90686C35-33BF-4DFE-8624-5C287AC3B242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90686C35-33BF-4DFE-8624-5C287AC3B242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90686C35-33BF-4DFE-8624-5C287AC3B242}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {987CAF8D-546C-44BD-AF17-99BCDACA30BA}
+	EndGlobalSection
+EndGlobal
