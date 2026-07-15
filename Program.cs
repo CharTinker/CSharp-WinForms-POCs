@@ -22,7 +22,7 @@ namespace CSharpWinFormsPOCs
             services.AddSingleton<IUserService, UserService>();
 
             // Transient: Creates a new form instance every time it is requested.
-            services.AddTransient<DependencyIn>();
+            services.AddTransient<DependencyIn>();           
 
             // Creates the DI container used to resolve registered services.
             var serviceProvider = services.BuildServiceProvider();

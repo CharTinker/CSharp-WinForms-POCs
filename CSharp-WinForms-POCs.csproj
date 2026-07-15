@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{90686C35-33BF-4DFE-8624-5C287AC3B242}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CallbackPOC</RootNamespace>
-    <AssemblyName>CallbackPOC</AssemblyName>
+    <RootNamespace>CSharpWinFormsPOCs</RootNamespace>
+    <AssemblyName>CSharpWinFormsPOCs</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -98,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="01-Dependency Injection\DependencyIn.resx">
       <DependentUpon>DependencyIn.cs</DependentUpon>
@@ -122,6 +123,7 @@
     <Folder Include="04-Async-Await\" />
     <Folder Include="05-BackgroundWorker\" />
     <Folder Include="06-MVP-Pattern\" />
+    <Folder Include="07-Caching\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets" Condition="Exists('packages\System.ValueTuple.4.6.2\build\net471\System.ValueTuple.targets')" />
