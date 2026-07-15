@@ -25,12 +25,12 @@ Whether you're learning WinForms, preparing for technical interviews, or looking
 CSharp-WinForms-POCs
 │
 ├── 01-DependencyInjection
-├── 02-CallbackPattern
-├── 03-EventsAndDelegates
+├── 02-Events-And-Delegates
+├── 04-Async-Await
 ├── 04-AsyncAwait
 ├── 05-BackgroundWorker
-├── 06-Multithreading
-├── 07-MVP
+├── 06-MVP-Pattern
+├── 07-Caching
 ├── 08-RepositoryPattern
 └── README.md
 ```
