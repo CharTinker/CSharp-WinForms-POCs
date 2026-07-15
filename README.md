@@ -41,16 +41,16 @@ Each folder is a standalone project that focuses on a single concept.
 
 # 📚 Available POCs
 
-| Project                                 | Description                                                                                                   | Skills Demonstrated                                                        |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| **01 - Dependency Injection**           | Demonstrates dependency injection in a WinForms application using `Microsoft.Extensions.DependencyInjection`. | Dependency Injection, Constructor Injection, Service Lifetimes, Interfaces |
-| **02 - Callback Pattern**               | Demonstrates callback-based asynchronous programming using delegates.                                         | Delegates, `Action`, Callback Pattern, Thread-safe UI                      |
-| **03 - Events & Delegates** *(Planned)* | Publisher/Subscriber communication using events.                                                              | Events, Delegates, Event Handlers                                          |
-| **04 - Async / Await** *(Planned)*      | Modern asynchronous programming.                                                                              | Tasks, async/await                                                         |
-| **05 - BackgroundWorker** *(Planned)*   | Background processing in WinForms.                                                                            | BackgroundWorker, Progress Reporting                                       |
-| **06 - Multithreading** *(Planned)*     | Thread creation and synchronization.                                                                          | Threading, Synchronization                                                 |
-| **07 - MVP Pattern** *(Planned)*        | Separation of UI and business logic.                                                                          | MVP, Testable UI                                                           |
-| **08 - Repository Pattern** *(Planned)* | Data access abstraction.                                                                                      | Repository Pattern                                                         |
+| Folder                    | Description                                                                                                   | Concepts                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `01-DependencyInjection`  | Demonstrates dependency injection in a WinForms application using `Microsoft.Extensions.DependencyInjection`. | Constructor Injection, Interfaces, Service Lifetimes              |
+| `02-Events-And-Delegates` | Demonstrates communication between objects using events and delegates.                                        | Events, Delegates, Event Handlers, Publisher/Subscriber           |
+| `04-Async-Await`          | Demonstrates asynchronous operations while keeping the WinForms UI responsive.                                | `Task`, `async`, `await`, UI Thread                               |
+| `04-AsyncAwait`           | Provides an additional async/await implementation or example.                                                 | Asynchronous Programming, Exception Handling, UI Updates          |
+| `05-BackgroundWorker`     | Demonstrates background processing with progress and completion reporting.                                    | `BackgroundWorker`, Progress Reporting, Cancellation              |
+| `06-MVP-Pattern`          | Separates user-interface code from presentation and business logic.                                           | MVP, Interfaces, Testability, Separation of Concerns              |
+| `07-Caching`              | Demonstrates caching data to avoid repeated repository or API calls.                                          | Cache-Aside, Expiration, Thread Safety                            |
+| `08-RepositoryPattern`    | Abstracts data access from the application’s business logic.                                                  | Repository Pattern, Interfaces, Dependency Injection, Testability |
 
 ---
 
